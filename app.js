@@ -10,5 +10,8 @@ document.addEventListener("keypress", (event) => {
     // if welcome visible -
     // get rid of welcome screen 
     // replace with info screen to display - event key / event code / event which 
-    
+    welcome.style.display = "none";
+    if (welcome.style.display == "none") {
+    info.style.display = "block";
+}
 })
