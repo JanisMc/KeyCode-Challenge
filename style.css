@@ -17,3 +17,13 @@ h1 {
     padding-bottom: 45%;
 }
 
+#info {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 8vh;
+    margin: 0;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
