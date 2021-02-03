@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-html,body {
+body {
     margin: 0;
     height: 100%;
-}
-
-div {
     background-image: linear-gradient(to bottom left, rgb(167, 65, 141), rgb(36, 112, 199));
 }
 
-p {
+h1 {
     color: black;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -19,3 +16,4 @@ p {
     padding-top: 45%;
     padding-bottom: 45%;
 }
+
