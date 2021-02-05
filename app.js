@@ -3,6 +3,7 @@ const welcome = document.getElementById("welcome");
 const eventKey = document.getElementById("key");
 const eventCode = document.getElementById("code");
 const eventWhich = document.getElementById("which");
+const headWhich = document.getElementById("whiches");
 
 
 // hide info screen 
@@ -16,9 +17,10 @@ const logKey = (event) => {
     welcome.style.display = "none";
 
     if (welcome.style.display == "none") {
-        info.style.display = "block";
+        info.style.display = "flex";
     }
 
+    headWhich.textContent = `${event.which}`;
     eventKey.textContent = `${event.key}`;
     eventCode.textContent = `${event.code}`;
     eventWhich.textContent = `${event.which}`;
